@@ -6,6 +6,14 @@
     font-family: 'flame';
     src: url(assets/fonts/FlameRegular.otf);
 }
+@font-face {
+    font-family: 'futurak';
+    src: url(./futurak.ttf);
+}
+
+.bg-gray{
+    background-color: #f5ebdc;
+}
 
 /* Nave bar start */
 .pink
@@ -62,8 +70,12 @@ color: #fff;
         width: 50px;
         font-size: 25px;
     }
+    .logo{
+        display: block;
+        
+    }
     
-.logo
+.nav-bag
 {
     display: none;
 }
@@ -106,6 +118,14 @@ border-radius: 50px;
 margin-top: 10px;
 
 }
+
+.rounded-pill{
+    background-color:#fff;
+    border: 1px solid red;
+    color: red;
+}
+
+
 @media only screen and (max-width:1200px)
 {
     .hero-burger
@@ -123,3 +143,100 @@ margin-top: 10px;
     }
 }
 /* hero section end  */
+
+
+/* footer area started */
+
+
+.footer-font{
+    font-family:'futurak' ;
+    color: #502314;
+    font-size: 50px;
+}
+
+/* @media only screen and (max-width:1000px){
+    .box-1>img{
+        width: 300px;
+    }
+
+} */
+
+
+@media only screen and (max-width:990px) {
+    .box-1>img{
+        width: 300px;
+    }
+    .footer-font{
+        font-size: 30px;
+        text-align: center;
+    }
+    .F-img{
+        display: inline-flex;
+    }
+    .footer-text{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:790px) {
+    .box-1>img{
+        width: 200px;
+    }
+    .footer-font{
+        font-size: 30px;
+        text-align: center;
+    }
+    .F-img{
+        display: inline-flex;
+    }
+    .footer-text{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:580px) {
+    .box-1>img{
+        width: 150px;
+    }
+    .footer-font{
+        font-size: 20px;
+        text-align: center;
+    }
+    .F-img{
+        display: inline-flex;
+    }
+    .footer-text{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:476px) {
+    .box-1>img{
+        width: 100px;
+    }
+    .footer-font{
+        font-size: 20px;
+        text-align: center;
+    }
+    .F-img{
+        display: inline-flex;
+    }
+    .footer-text{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer area ended */
